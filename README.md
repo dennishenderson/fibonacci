@@ -33,4 +33,4 @@ Stores all indices and calculated values as key-value pairs
 Stores a permanent list of indicies that have been received
 
 ### Worker Server
-Watches Redis db for new indicies.  Pulls each new indice, calculates new value hten puts it back into Redis DB.
+Watches Redis db for new indicies.  Pulls each new indice, calculates new value then puts it back into Redis DB.
