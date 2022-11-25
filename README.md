@@ -20,10 +20,10 @@ Used as a proxy to route traffic to either the React Server or the Express Serve
 Seres up all web requests for the Fibonacci UI
 
 ### Express API Server
-Handles all API calls
-/ - Returns "Hi" as a test
-/values - Receives input from browser
-/values/all - queries Postgres DB for all past values searched
+Handles all API calls<br />
+/ - Returns "Hi" as a test<br />
+/values - Receives input from browser<br />
+/values/all - queries Postgres DB for all past values searched<br />
 /values/current - sends current value to RedisDB
 
 ### Redis DB
